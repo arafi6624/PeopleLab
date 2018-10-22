@@ -5,7 +5,7 @@ public class Teacher extends Person {
     {
         super("");
         this.Subject=Subject;
-        this.Title=Title
+        this.Title=Title;
     }
     @Override
     public String getSubject() {
