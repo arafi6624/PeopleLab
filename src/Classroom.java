@@ -14,7 +14,7 @@ public class Classroom {
     {
         for (double val : students)
       {
-         double totalGPA =
+         double totalGPA =lol
       }
     }
 }
