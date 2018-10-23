@@ -10,9 +10,12 @@ public class Student extends Person {
         this.gradeNum = gradeNum;
     }
 
-    public double getGPA(){
+    public double getGPA() {
         return GPA;
-    };
+    }
 
-    public String toString(return )
+    @Override
+    public String toString() {
+        return getFirstName() + " " + getFamilyName();
+    }
 }
