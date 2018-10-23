@@ -6,15 +6,27 @@ public class Classroom {
         this.students= students;
         this.teacher=teacher;
     }
-    public void getSubject()
+    public String getSubject()
     {
-        return Subject;
+        return this.teacher.getSubject();
     }
     public double classAverage()
     {
-        for (double val : students)
+        double totalGPA=0;
+        for (Student val: students)
       {
-         double totalGPA =lol
+         totalGPA+= val.getGPA();
       }
+      double Average = totalGPA/students.length;
+        return Average;
+    }
+    public String printClass()
+    {
+        String temp="";
+        for (Student name: students)
+        {
+            temp+= students.toString()+ " ";
+        }
+        return teacher + "'s "+getSubject()+"with these students: "+ temp;
     }
 }
