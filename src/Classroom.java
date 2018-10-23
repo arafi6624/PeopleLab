@@ -1,7 +1,7 @@
 public class Classroom {
     private Student[] students;
     private Teacher teacher;
-    public Classroom (Teacher teacher, Student[] students)
+    public Classroom (Teacher teacher, Student[]  students)
     {
         this.students= students;
         this.teacher=teacher;
