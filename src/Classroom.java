@@ -20,13 +20,14 @@ public class Classroom {
       double Average = totalGPA/students.length;
         return Average;
     }
-    public String printClass()
+    public void printClass()
     {
-        String temp="";
+        System.out.println("Teacher: "+teacher);
+        System.out.println("Subject: "+getSubject());
+        System.out.println("The students in the class are:");
         for (Student name: students)
         {
-            temp+= students.toString()+ " ";
+           System.out.println(name);
         }
-        return teacher + "'s "+getSubject()+"with these students: "+ temp;
     }
 }

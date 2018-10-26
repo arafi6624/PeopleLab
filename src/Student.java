@@ -1,13 +1,13 @@
 public class Student extends Person {
     private double GPA;
     private int osis;
-    private int gradeNum;
+    private int hsGradeNum;
 
-    public Student (double GPA, int osis, int gradeNum, String firstName, String familyName){
+    public Student (double GPA, int osis, int hsGradeNum, String firstName, String familyName){
         super (firstName, familyName);
         this.GPA = GPA;
         this.osis = osis;
-        this.gradeNum = gradeNum;
+        this.hsGradeNum = hsGradeNum;
     }
 
     public double getGPA() {
@@ -16,6 +16,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return getFirstName() + " " + getFamilyName();
+        return getFirstName() + " " + getFamilyName()+ " ";
     }
 }
