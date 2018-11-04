@@ -1,6 +1,7 @@
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
+//made by Allen Chen, Samuel, Abdul Arafi
 public class Runner {
+   
     private static String[] firstName= {"John", "David", "Peter", "Jim", "Jimmy", "Daniel", "Chris", "Chin", "Robert"};
     private static String[] familyName = {"Chan", "Wu", "Patel", "Rafi", "Rafael", "Smith", "Ramsey", "Levin", "Pratt"};
 
